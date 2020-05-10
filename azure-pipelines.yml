@@ -6,7 +6,6 @@ variables:
 
 stages:
 - stage: build
-  dependsOn: format
   displayName: 'build'
   jobs:
   - job: build
