@@ -3,6 +3,7 @@ trigger:
 
 variables:
   DisplayVersion: $[counter(variables['DisplayPrefix'], 1)]
+  BuildName: $(Build.BuildNumber)
 
 stages:
 - stage: build
