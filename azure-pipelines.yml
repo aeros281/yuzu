@@ -7,7 +7,7 @@ variables:
 
 stages:
 - stage: build
-  displayName: 'build'
+  displayName: 'build1'
   jobs:
   - job: build
     displayName: 'windows-msvc'
